@@ -22,7 +22,7 @@ repository               : "https://github.com/AlexYouXin/AlexYouXin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio.png"
+  avatar           : "https://github.com/AlexYouXin/AlexYouXin.github.io/blob/master/images/bio.png"
   name             : "Xin You"
   pronouns         : # example: "she/her"
   bio              : "Let's goooooo!"
