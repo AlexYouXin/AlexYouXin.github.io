@@ -1,11 +1,11 @@
 ---
-title: "Paper Title Number 3"
+title: "SLoRD: Structural Low-Rank Descriptors for Shape Consistency in Vertebrae Segmentation"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
+permalink: /publication/2025-05-27-paper-title-number-3
+# excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+date: 2025-05-27
+venue: 'IEEE JBHI'
 slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11016174'
 ---
