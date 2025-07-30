@@ -1,4 +1,3 @@
-
 ---
 title: "Learning with explicit shape priors for medical image segmentation"
 collection: publications
