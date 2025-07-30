@@ -17,10 +17,6 @@ Curriculum Vitae
 - Sep. 2016 - Jun. 2020: Bachelor in Automation at Harbin Institute of Technology
 
 
-
-
-
-
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
