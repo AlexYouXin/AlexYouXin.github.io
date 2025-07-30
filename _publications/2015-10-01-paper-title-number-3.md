@@ -15,5 +15,4 @@ permalink: /publication/2024-02-17-paper-title-number-4
 date: 2024-12-23
 venue: 'IEEE Transactions on Medical Imaging'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10812757'
-# citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
