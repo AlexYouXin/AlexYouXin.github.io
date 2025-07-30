@@ -24,8 +24,8 @@ Curriculum Vitae
 
 Awards
 ======
-MICCAI 2024 TopCoW challenge: Golden prize for one track, Silver prizes for two tracks
-MICCAI 2024 LIQA challenge: Best Performance Award
+- MICCAI 2024 TopCoW challenge: Golden prize for one track, Silver prizes for two tracks
+- MICCAI 2024 LIQA challenge: Best Performance Award
 
 
 Getting started
