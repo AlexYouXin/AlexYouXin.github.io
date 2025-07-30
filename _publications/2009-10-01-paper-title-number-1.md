@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-10-01-paper-title-number-1
 excerpt: # 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-10-01
-venue: 'ICCV 2025'
+venue: 'ICCV'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/abs/2507.04547'
 bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
