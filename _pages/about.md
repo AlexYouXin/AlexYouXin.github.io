@@ -21,7 +21,6 @@ Curriculum Vitae
 - Sep. 2020 - Now: PhD Candidate at IMR, Shanghai Jiao Tong Univeristy
 - Sep. 2016 - Jun. 2020: Bachelor in Automation at Harbin Institute of Technology
 
-
 Awards
 ======
 - MICCAI 2024 TopCoW challenge: Golden prize for one track, Silver prizes for two tracks
