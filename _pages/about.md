@@ -1,3 +1,16 @@
+---
+permalink: /
+title: "Curriculum"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+- Dec. 2024 - Now: Visiting Scholar at CAMP, Technical University of Munich
+- Sep. 2020 - Now: PhD Candidate at IMR, Shanghai Jiao Tong Univeristy
+- Sep. 2016 - Jun. 2020: Bachelor in Automation at Harbin Institute of Technology
+
+
 
 A data-driven personal website
 ======
