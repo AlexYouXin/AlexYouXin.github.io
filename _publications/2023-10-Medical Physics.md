@@ -1,7 +1,7 @@
 ---
 title: "VerteFormer: A single-staged Transformer network for vertebrae segmentation from CT images with arbitrary field of views"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/2024-02-17-paper-title-number-4
 # excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
 date: 2023-05-21
