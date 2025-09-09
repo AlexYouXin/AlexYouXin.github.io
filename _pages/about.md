@@ -15,7 +15,7 @@ My research of interests include:
 - Medical image synthesis
 - Domain adaptation for medical segmentation
 
-Curriculum Vitae
+Education Experience
 ======
 - Dec. 2024 - Now: Visiting Scholar at CAMP, Technical University of Munich
 - Sep. 2020 - Now: PhD Candidate at IMR, Shanghai Jiao Tong Univeristy
