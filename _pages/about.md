@@ -15,20 +15,30 @@ My research of interests include:
 - Medical image synthesis
 - Domain adaptation for medical segmentation
 
-Education Experience
+News
+======
+- Mar. 2021 - Sep. 2021: Medtronic Technology Center, Shanghai
+- Apr. 2022 - May. 2023: OpenMMLab, Shanghai AI Lab
+
+Education
 ======
 - Dec. 2024 - Now: Visiting Scholar at CAMP, Technical University of Munich
 - Sep. 2020 - Now: PhD Candidate at IMR, Shanghai Jiao Tong Univeristy
 - Sep. 2016 - Jun. 2020: Bachelor in Automation at Harbin Institute of Technology
+
+
+Work Experience
+======
+- Dec. 2024 - Now: Visiting Scholar at CAMP, Technical University of Munich
+- Sep. 2020 - Now: PhD Candidate at IMR, Shanghai Jiao Tong Univeristy
+
+
 
 Awards
 ======
 - MICCAI 2024 TopCoW challenge: Golden prize for one track, Silver prizes for two tracks
 - MICCAI 2024 LIQA challenge: Best Performance Award
 
-
-News
-======
 
 
 
