@@ -17,8 +17,10 @@ My research of interests include:
 
 News
 ======
-- Mar. 2021 - Sep. 2021: Medtronic Technology Center, Shanghai
-- Apr. 2022 - May. 2023: OpenMMLab, Shanghai AI Lab
+[Jul 2025] one paper accepted by ICCV 2025.
+[Jul 2025] one paper accepted by MICCAI 2025.
+[May 2025] one paper early accepted by MICCAI 2025.
+[May 2025] one paper accepted by IEEE JBHI.
 
 Education
 ======
@@ -29,8 +31,8 @@ Education
 
 Work Experience
 ======
-- Dec. 2024 - Now: Visiting Scholar at CAMP, Technical University of Munich
-- Sep. 2020 - Now: PhD Candidate at IMR, Shanghai Jiao Tong Univeristy
+- Mar. 2021 - Sep. 2021: Medtronic Technology Center, Shanghai
+- Apr. 2022 - May. 2023: OpenMMLab, Shanghai AI Lab
 
 
 
