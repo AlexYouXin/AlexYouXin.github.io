@@ -27,6 +27,19 @@ News
 
 [Dec 2024] one [paper](https://ieeexplore.ieee.org/abstract/document/10812757) accepted by IEEE TMI.
 
+[Dec 2024] one [paper](https://link.springer.com/article/10.1007/s11684-024-1098-y) accepted by Frontiers of Medicine.
+
+[Oct 2024] one [paper](https://link.springer.com/chapter/10.1007/978-3-031-72378-0_51) accepted by MICCAI 2024.
+
+[Sep 2024] one [paper](https://ieeexplore.ieee.org/abstract/document/10697195/) accepted by IEEE TMI.
+
+[Oct 2023] one [paper](https://link.springer.com/chapter/10.1007/978-3-031-43990-2_12) accepted by MICCAI 2023.
+
+[May 2023] one [paper](https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.16467) accepted by Medical Physics.
+
+[Dec 2022] one [paper](https://link.springer.com/chapter/10.1007/978-3-031-21014-3_7) accepted by MICCAI workshop - MLMI 2022.
+
+[Mar 2022] one [paper](https://ieeexplore.ieee.org/abstract/document/9761551) accepted by IEEE ISBI 2022.
 
 Education
 ======
