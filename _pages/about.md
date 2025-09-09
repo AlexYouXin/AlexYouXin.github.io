@@ -18,9 +18,13 @@ My research of interests include:
 News
 ======
 [Jul 2025] one [paper](https://arxiv.org/abs/2507.04547) accepted by ICCV 2025.
+
 [Jul 2025] one [paper](https://arxiv.org/abs/2506.23673) accepted by MICCAI 2025.
+
 [May 2025] one [paper](https://arxiv.org/abs/2505.17333) early accepted by MICCAI 2025.
+
 [May 2025] one [paper](https://ieeexplore.ieee.org/abstract/document/11016174) accepted by IEEE JBHI.
+
 [Dec 2024] one [paper](https://ieeexplore.ieee.org/abstract/document/10812757) accepted by IEEE TMI.
 
 
