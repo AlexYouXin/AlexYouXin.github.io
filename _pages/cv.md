@@ -9,37 +9,20 @@ redirect_from:
 
 {% include base_path %}
 
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- Dec. 2024 - Now: Visiting Scholar at CAMP, Technical University of Munich
+- Sep. 2020 - Now: PhD Candidate at IMR, Shanghai Jiao Tong Univeristy
+- Sep. 2016 - Jun. 2020: Bachelor in Automation at Harbin Institute of Technology
 
-Work experience
+
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+- Mar. 2021 - Sep. 2021: Medtronic Technology Center, Shanghai
+- Apr. 2022 - May. 2023: OpenMMLab, Shanghai AI Lab
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
 
 Publications
 ======
@@ -53,12 +36,9 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewers for journals including IEEE TMI/MedIA/IEEE JBHI/PR
+* Reviewers for conferences including ILCR/ICCV/MICCAI
