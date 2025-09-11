@@ -35,6 +35,7 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
+
   
 
   
@@ -42,3 +43,4 @@ Service and leadership
 ======
 * Reviewers for journals including IEEE TMI/MedIA/IEEE JBHI/PR
 * Reviewers for conferences including ILCR/ICCV/MICCAI
+* Teacher assistant for C++ program/Pattern recognition and Image processing
