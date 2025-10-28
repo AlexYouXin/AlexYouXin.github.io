@@ -34,6 +34,6 @@ Publications
   
 Service and leadership
 ======
-* Reviewers for journals including IEEE TMI/MedIA/IEEE JBHI/PR
+* Reviewers for journals including IEEE TMI/MedIA/IEEE JBHI/Pattern Recognition
 * Reviewers for conferences including ICLR/ICCV/MICCAI/MIDL
 * Teacher assistant for C++ program/Pattern recognition and Image processing
