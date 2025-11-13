@@ -14,7 +14,7 @@ My research of interests include:
 - Motion modeling
 - Universal image segmentation
 - Vertebral shape modeling
-- Domain adaptation for medical segmentation
+- Domain adaptation
 
 News
 ======
