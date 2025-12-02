@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at the Institute of Medical Robotics (IMR), Shanghai Jiao Tong University, under the supervision of Prof. Yun Gu and Prof. Jie Yang. Now I am also a visiting scholar at the Chair for Computer Aided Medical Procedures & Augmented Reality (CAMP), Technical University of Munich, under the supervision of Prof. Nassir Navab. I also intern at GMAI, Shanghai AI Lab, working closely with Prof. Junjun He.
+I am a Ph.D. student at the Institute of Medical Robotics (IMR), Shanghai Jiao Tong University, under the supervision of [Prof. Yun Gu](https://scholar.google.com/citations?user=0pX32mkAAAAJ&hl=en) and [Prof. Jie Yang](https://scholar.google.com/citations?user=tmx7tu8AAAAJ&hl=en). Now I am also a visiting scholar at the Chair for Computer Aided Medical Procedures & Augmented Reality (CAMP), Technical University of Munich, under the supervision of [Prof. Nassir Navab](https://scholar.google.com/citations?user=kzoVUPYAAAAJ&hl=en). I also intern at GMAI in Shanghai AI Lab, working closely with [Prof. Junjun He](https://scholar.google.com/citations?user=Z4LgebkAAAAJ&hl=en).
 
-My research lies in the intersection of medical imaging and artificial intelligence, with a particular focus on CT/MRI. I work on medical image computing and cad-assisted intervention. My interests include vertebral shape analysis, implicit and explicit shape priors for volumetric image segmentation, temporal interpolation for pulmonary CT/Cardiac MRI, and test time adaptation for medical segmentation.
+My research focuses on AI for Medical Imaging and AI for Healthcare, with a particular focus on CT and MRI. I work on medical image computing and cad-assisted intervention. My interests include vertebral shape analysis, implicit and explicit shape priors for volumetric image segmentation, temporal interpolation for pulmonary CT/Cardiac MRI, and test time adaptation for medical segmentation.
 
 My research of interests include:
 - Medical image/video synthesis
