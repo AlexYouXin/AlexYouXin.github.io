@@ -18,7 +18,7 @@ My research of interests include:
 - Vertebral shape modeling
 - Domain adaptation
 
-Download my CV [en](https://github.com/AlexYouXin/AlexYouXin.github.io/CV-Xin You.pdf)/[中文](https://github.com/AlexYouXin/AlexYouXin.github.io/CV-Xin You_chinese.pdf)
+Download my CV [en](https://github.com/AlexYouXin/AlexYouXin.github.io/CV-Xin_You_english.pdf)/[中文](https://github.com/AlexYouXin/AlexYouXin.github.io/CV-Xin_You_chinese.pdf)
 
 
 News
