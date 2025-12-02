@@ -23,6 +23,8 @@ Download my CV [[en](https://github.com/AlexYouXin/AlexYouXin.github.io/blob/mas
 
 News
 ======
+[Nov 2025] one [paper](https://www.sciencedirect.com/science/article/pii/S001048252501618X) accepted by CIBM.
+
 [Jul 2025] one [paper](https://arxiv.org/abs/2507.04547) accepted by ICCV 2025.
 
 [Jul 2025] one [paper](https://arxiv.org/abs/2506.23673) accepted by MICCAI 2025.
