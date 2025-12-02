@@ -68,6 +68,9 @@ Awards
 - MICCAI 2024 TopCoW challenge: Golden prize for one track, Silver prizes for two tracks
 - MICCAI 2024 LIQA challenge: Best Performance Award
 
-
-
+Services
+======
+- C++ programming course    Teaching Assistant    Shanghai Jiao Tong University    2021
+- Summer School by Institute of Medical Robotics    Teaching Assistant    Shanghai Jiao Tong University    2023
+- Peer review services: IEEE TPAMI/IEEE TMI/MedIA/JBHI/Pattern Recognition    ICLR/ICCV/AAAI/MICCAI
 
