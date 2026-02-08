@@ -440,8 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-one-paper-accepted-by-ieee-isbi-2022",
-          title: 'one paper accepted by IEEE ISBI 2022.',
+            },},{id: "news-one-paper-accepted-by-ieee-isbi-2022-sparkles",
+          title: 'one paper accepted by IEEE ISBI 2022. :sparkles:',
           description: "",
           section: "News",},{id: "news-one-paper-accepted-by-miccai-workshop-mlmi-2022-sparkles",
           title: 'one paper accepted by MICCAI workshop - MLMI 2022. :sparkles:',
