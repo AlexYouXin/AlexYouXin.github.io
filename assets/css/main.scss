@@ -37,3 +37,9 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+/* Global font override */
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, "Noto Sans", "PingFang SC",
+               "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
