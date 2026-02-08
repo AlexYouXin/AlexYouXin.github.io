@@ -9,7 +9,6 @@ profile:
   image: bio.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    # <p> sjtu_youxin [at] sjtu [dot] edu [dot] cn </p>
     <p> Let's goooooo! </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -19,13 +18,12 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 25 # leave blank to include all the news in the `_news` folder
----
 
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
----
+
 
 I am a Ph.D. student at the Institute of Medical Robotics (IMR), Shanghai Jiao Tong University, under the supervision of Prof. Yun Gu and Prof. Jie Yang. Previously, I have been a visiting scholar at the Chair for Computer Aided Medical Procedures & Augmented Reality (CAMP), Technical University of Munich, under the supervision of Prof. Nassir Navab. I also intern at OpenMMLab in Shanghai AI Lab, working closely with Prof. Junjun He.
 
