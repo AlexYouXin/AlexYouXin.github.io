@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-one paper accepted by IEEE ISBI 2022.
+one paper accepted by IEEE ISBI 2022. :sparkles:
