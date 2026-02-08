@@ -550,13 +550,6 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -564,18 +557,25 @@ ninja.data = [{
           window.open("mailto:%73%6A%74%75_%79%6F%75%78%69%6E@%73%6A%74%75.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/AlexYouXin", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/xin-you-bb473a374", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Xin-You-19/", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -583,13 +583,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qzW9e80AAAAJ&hl", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
