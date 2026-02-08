@@ -30,6 +30,6 @@ I am a Ph.D. student at the Institute of Medical Robotics (IMR), Shanghai Jiao T
 
 My research focuses on AI for Medical Imaging and AI for Healthcare , with a particular focus on CT and MRI. I work on medical image computing and cad-assisted intervention. My interests include image/video synthesis, , universal medical image segmentation, vertebral shape modeling, temporal motion modeling for pulmonary CT/Cardiac MRI. Recently, I have focused on VFM/VLM/MLLM for medical scenarios.
 
-Download my CV [en]/[中文]
+Download my CV [en](https://github.com/AlexYouXin/AlexYouXin.github.io/blob/main/CV-Xin%20You_renewable.pdf)/[中文](https://github.com/AlexYouXin/AlexYouXin.github.io/blob/main/CV-Xin%20You_cn.pdf)
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
