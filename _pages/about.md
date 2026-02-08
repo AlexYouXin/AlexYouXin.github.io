@@ -32,4 +32,4 @@ My research focuses on AI for Medical Imaging and AI for Healthcare , with a par
 
 Download my CV [en](https://github.com/AlexYouXin/AlexYouXin.github.io/blob/main/CV-Xin%20You_renewable.pdf)/[中文](https://github.com/AlexYouXin/AlexYouXin.github.io/blob/main/CV-Xin%20You_cn.pdf)
 
-Note: I'm always open to academic collaborations and discussions. Please feel free to reach out by email.
+**Note: I'm always open to academic collaborations and discussions. Please feel free to reach out by email.**
