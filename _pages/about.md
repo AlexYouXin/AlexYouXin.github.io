@@ -32,4 +32,4 @@ My research focuses on AI for Medical Imaging and AI for Healthcare , with a par
 
 Download my CV [en](https://github.com/AlexYouXin/AlexYouXin.github.io/blob/main/CV-Xin%20You_renewable.pdf)/[中文](https://github.com/AlexYouXin/AlexYouXin.github.io/blob/main/CV-Xin%20You_cn.pdf)
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Note: I'm always open to academic collaborations and discussions. Please feel free to reach out by email.
