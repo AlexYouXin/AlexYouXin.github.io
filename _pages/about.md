@@ -9,7 +9,6 @@ profile:
   image: bio.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> PhD student @ SJTU, TUM </p>
     <p>  </p>
     <p> Let's goooooo! </p>
 
