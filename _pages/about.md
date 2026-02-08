@@ -9,7 +9,7 @@ profile:
   image: bio.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>  </p>
+    <p> sjtu_youxin [at] sjtu [dot] edu [dot] cn </p>
     <p> Let's goooooo! </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
