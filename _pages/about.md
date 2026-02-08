@@ -21,12 +21,6 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
----
-
 I am a Ph.D. student at the Institute of Medical Robotics (IMR), Shanghai Jiao Tong University, under the supervision of Prof. Yun Gu and Prof. Jie Yang. Previously, I have been a visiting scholar at the Chair for Computer Aided Medical Procedures & Augmented Reality (CAMP), Technical University of Munich, under the supervision of Prof. Nassir Navab. I also intern at OpenMMLab in Shanghai AI Lab, working closely with Prof. Junjun He.
 
 My research focuses on AI for Medical Imaging and AI for Healthcare , with a particular focus on CT and MRI. I work on medical image computing and cad-assisted intervention. My interests include image/video synthesis, , universal medical image segmentation, vertebral shape modeling, temporal motion modeling for pulmonary CT/Cardiac MRI. Recently, I have focused on VFM/VLM/MLLM for medical scenarios.
