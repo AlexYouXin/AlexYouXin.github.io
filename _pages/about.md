@@ -22,7 +22,7 @@ announcements:
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 99 # leave blank to include all the blog posts
 ---
 
 I am a Ph.D. student at the Institute of Medical Robotics (IMR), Shanghai Jiao Tong University, under the supervision of Prof. Yun Gu and Prof. Jie Yang. Previously, I have been a visiting scholar at the Chair for Computer Aided Medical Procedures & Augmented Reality (CAMP), Technical University of Munich, under the supervision of Prof. Nassir Navab. I also intern at OpenMMLab in Shanghai AI Lab, working closely with Prof. Junjun He.
