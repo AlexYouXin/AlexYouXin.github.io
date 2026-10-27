@@ -522,6 +522,13 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=qzW9e80AAAAJ&hl", "_blank");
         },
       },{
+        id: 'social-alphaxiv',
+        title: 'Alphaxiv',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.alphaxiv.org/@xin-you-2", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
