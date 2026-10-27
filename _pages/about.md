@@ -31,4 +31,6 @@ My research focuses on AI for Medical Imaging and AI for Healthcare , with a par
 
 Download my CV [en](https://github.com/AlexYouXin/AlexYouXin.github.io/blob/main/CV-Xin%20You_renewable.pdf)/[中文](https://github.com/AlexYouXin/AlexYouXin.github.io/blob/main/CV-Xin%20You_cn.pdf)
 
+**alphaXiv profile:** [Xin You on alphaXiv](https://www.alphaxiv.org/@xin-you-2) — AI-generated paper summaries, Chinese translations and community discussion of my research are collected on this profile.
+
 **Note: I'm always open to academic collaborations and discussions. Please feel free to reach out by email.**
