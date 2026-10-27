@@ -21,25 +21,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
-  {% if site.title == 'blank' %}
-    {% capture title %}{{ author_name }}{% endcapture %}
-  {% else %}
-    {% capture title %}{{ site.title }}{% endcapture %}
-  {% endif %}
-  {% if page.url == '/blog/index.html' %}
-    {{ page.title }} | {{ title }}
-  {% elsif page.title != 'blank' and page.url != '/' %}
-    {% if page.title == null or page.title == '' %}
-      {{ page.date | date: '%Y' }} | {{ title }}
+  {% capture page_title %}
+    {% if site.title == 'blank' %}
+      {% capture title %}{{ author_name }}{% endcapture %}
     {% else %}
-      {{ page.title }} | {{ title }}
+      {% capture title %}{{ site.title }}{% endcapture %}
     {% endif %}
-  {% else %}
-    {{ title }}
-  {% endif %}
+    {% if page.seo_title %}
+      {{ page.seo_title }}
+    {% elsif page.url == '/blog/index.html' %}
+      {{ page.title }} | {{ title }}
+    {% elsif page.title != 'blank' and page.url != '/' %}
+      {% if page.title == null or page.title == '' %}
+        {{ page.date | date: '%Y' }} | {{ title }}
+      {% else %}
+        {{ page.title }} | {{ title }}
+      {% endif %}
+    {% else %}
+      {{ title }}
+    {% endif %}
+  {% endcapture %}
+  {% assign seo_title = page_title | strip %}
+  {{- seo_title -}}
 </title>
 <meta name="author" content="{{ author_name }}">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% if page.sitemap == false %}
+  <meta name="robots" content="noindex, follow">
+{% endif %}
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 {% endif %}
@@ -55,7 +64,7 @@
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta property="og:title" content="{{ seo_title }}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.og_image or site.og_image %}
@@ -65,7 +74,7 @@
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta name="twitter:title" content="{{ seo_title }}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.og_image or site.og_image %}
     <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
@@ -242,6 +251,51 @@
         {% endif %}
         "name": "{{ author_name }}",
         "@context": "https://schema.org"
+    }
+  </script>
+{% endif %}
+
+{% if page.url == '/' %}
+  <!-- Schema.org: person profile. Tells search engines that this page *is* the person
+       "Xin You" (Ph.D. student at SJTU), instead of just another page mentioning the name. -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Xin You",
+      "alternateName": ["You Xin", "X. You"],
+      "url": "{{ site.url }}/",
+      "image": "{{ site.url }}/assets/img/bio.png",
+      "jobTitle": "Ph.D. Student",
+      "email": "mailto:sjtu_youxin@sjtu.edu.cn",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Shanghai Jiao Tong University",
+        "alternateName": "SJTU",
+        "department": {
+          "@type": "Organization",
+          "name": "Institute of Medical Robotics (IMR)"
+        }
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Technical University of Munich"
+      },
+      "knowsAbout": [
+        "Medical Image Analysis",
+        "Medical Image Segmentation",
+        "Computed Tomography (CT)",
+        "Magnetic Resonance Imaging (MRI)",
+        "Generative AI for Medical Imaging",
+        "Vision-Language Models for Medicine",
+        "AI for Healthcare"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=qzW9e80AAAAJ",
+        "https://github.com/AlexYouXin",
+        "https://www.linkedin.com/in/xin-you-bb473a374",
+        "https://www.researchgate.net/profile/Xin-You-19/"
+      ]
     }
   </script>
 {% endif %}

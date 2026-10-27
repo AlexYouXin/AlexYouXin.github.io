@@ -8,12 +8,12 @@ middle_name:
 last_name: You
 contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Xin You, Ph.D. student at the Institute of Medical Robotics (IMR), Shanghai Jiao Tong University (SJTU). Research: AI for medical imaging, CT/MRI segmentation, medical VLM/MLLM.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Xin You, SJTU, Shanghai Jiao Tong University, Institute of Medical Robotics, AI for medical imaging, medical image segmentation, CT, MRI, medical VLM, MLLM, AI4Healthcare # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -67,9 +67,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://alexyouxin.github.io/assets/img/bio.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -83,7 +83,7 @@ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: eYDyUrdozZY_Tv5UkkFIg9f2jGjRHxc3tyyhYowaq8g # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
@@ -231,9 +231,40 @@ plugins:
   - jemoji
 
 # Sitemap settings
+# Pages excluded from the sitemap are automatically tagged `noindex` (see _includes/metadata.liquid),
+# so the al-folio template demo content stays out of search results.
+# If you ever publish a real blog post, add `sitemap: true` to its front matter to re-enable it.
 defaults:
   - scope:
       path: "assets"
+    values:
+      sitemap: false
+  - scope:
+      path: "_posts"
+    values:
+      sitemap: false
+  - scope:
+      path: "_books"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/blog.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/books.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/about_einstein.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/dropdown.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/404.md"
     values:
       sitemap: false
 
@@ -398,7 +429,7 @@ enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
+enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
 enable_masonry: true # enables automatic project cards arrangement
