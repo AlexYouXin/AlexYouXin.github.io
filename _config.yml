@@ -247,6 +247,20 @@ defaults:
       path: "_books"
     values:
       sitemap: false
+  # Generated demo sections (blog index / year archives / tag & category pages / pagination,
+  # books shelf pages and the imported external demo posts).
+  - scope:
+      path: "blog"
+    values:
+      sitemap: false
+  - scope:
+      path: "books"
+    values:
+      sitemap: false
+  - scope:
+      path: "external-posts"
+    values:
+      sitemap: false
   - scope:
       path: "_pages/blog.md"
     values:
