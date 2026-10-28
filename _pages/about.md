@@ -30,6 +30,4 @@ I am a Ph.D. student at the Institute of Medical Robotics (IMR), Shanghai Jiao T
 
 My research focuses on AI for Medical Imaging and AI for Healthcare , with a particular focus on CT and MRI. I work on medical image computing and cad-assisted intervention. My interests include image/video synthesis, , universal medical image segmentation, vertebral shape modeling, temporal motion modeling for pulmonary CT/Cardiac MRI. Recently, I have focused on VFM/VLM/MLLM for medical scenarios.
 
-**alphaXiv profile:** [Xin You on alphaXiv](https://www.alphaxiv.org/@xin-you-2) — AI-generated paper summaries
-
 **Note: I'm always open to academic collaborations and discussions. Please feel free to reach out by email.**
