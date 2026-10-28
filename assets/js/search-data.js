@@ -529,6 +529,13 @@ ninja.data = [{
           window.open("https://www.alphaxiv.org/@xin-you-2", "_blank");
         },
       },{
+        id: 'social-openreview',
+        title: 'Openreview',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://openreview.net/profile?id=~Xin_You1", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
