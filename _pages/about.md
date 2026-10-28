@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-seo_title: Xin You - Ph.D. Student at Shanghai Jiao Tong University (SJTU) | AI for Medical Imaging
+seo_title: Xin You - Personal Website
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
