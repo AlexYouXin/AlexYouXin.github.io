@@ -10,11 +10,11 @@ linkedin_username: xin-you-bb473a374
 research_gate_profile: Xin-You-19
 scholar_userid: qzW9e80AAAAJ&hl=en
 alphaxiv:
-  logo: https://www.alphaxiv.org/favicon.ico
+  logo: /assets/img/alphaxiv-logo.png
   title: alphaXiv
   url: https://www.alphaxiv.org/@xin-you-2
 openreview:
-  logo: https://openreview.net/favicon.ico
+  logo: /assets/img/openreview-logo.png
   title: OpenReview
   url: https://openreview.net/profile?id=~Xin_You1
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
