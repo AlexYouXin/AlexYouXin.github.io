@@ -1,0 +1,33 @@
+# Shown in the "activities" section of the about page (synced from xin-you.pages.dev)
+invited:
+  - date: "2025.03"
+    text: "**Generative AI for Anatomical Motion Modeling in 4D Medical Imaging**, invited talk at CAMP, Technical University of Munich"
+    links:
+      - label: "TUM CAMP"
+        url: "https://www.cs.cit.tum.de/camp/start/"
+
+  - date: "2024.08"
+    text: "**Explicit Shape Priors Embrace Anatomical Structure Modeling**, invited talk at Suzhou Institute for Advanced Research, University of Science and Technology of China."
+    links:
+      - label: "SIAR, USTC"
+        url: "https://sz.ustc.edu.cn/en/en_aboutus_college.html"
+
+  - date: "2022.04"
+    text: "**Generalized Models for 3D Medical Image Segmentation**, invited talk at GMAI Center, Shanghai AI Laboratory."
+    links:
+      - label: "Shanghai AI Lab"
+        url: "https://www.shlab.org.cn/"
+
+teaching:
+  - date: "2023.07 — 2023.08"
+    text: "Teaching Assistant for Summer Camp of Institute of Medical Robotics, SJTU."
+
+  - date: "2022 — 2023 Spring"
+    text: "Teaching Assistant for Intelligent Information Processing, SJTU."
+
+  - date: "2020 — 2021 Fall"
+    text: "Teaching Assistant for C++ Programming, SJTU."
+
+reviewer:
+  - text: "Journal Reviewer: TPAMI, TIP, TNNLS, Medical Image Analysis, TMI, JBHI, and PR."
+  - text: "Conference Reviewer: CVPR, ICCV, ECCV, NeurIPS, ICLR, AAAI, MICCAI, MIDL, IPCAI and ISBI."

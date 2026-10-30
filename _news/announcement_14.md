@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-07-08 07:59:00-0400
+date: 2025-09-01 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-The MICCAI 2024 TopCow Challenge paper is released. :sparkles:
+[TopoSculpt](https://arxiv.org/abs/2509.03938) has been released.

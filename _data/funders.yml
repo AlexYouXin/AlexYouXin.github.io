@@ -1,0 +1,35 @@
+# Logos shown in the "funders and collaborators" section of the about page; file_dark is used in dark mode
+- file: "/assets/img/logos/sjtu.png"
+  file_dark: "/assets/img/logos/sjtu_white.png"
+  alt: "Shanghai Jiao Tong University"
+  url: "https://www.sjtu.edu.cn/"
+
+- file: "/assets/img/logos/tum.png"
+  file_dark: "/assets/img/logos/tum_white.png"
+  alt: "Technical University of Munich"
+  url: "https://www.tum.de/"
+
+- file: "/assets/img/logos/mcml.png"
+  file_dark: "/assets/img/logos/mcml_white.png"
+  alt: "Munich Center for Machine Learning"
+  url: "https://www.mcml.ai/"
+
+- file: "/assets/img/logos/shlab.png"
+  file_dark: "/assets/img/logos/shlab_white.png"
+  alt: "Shanghai Artificial Intelligence Laboratory"
+  url: "https://www.shlab.org.cn/"
+
+- file: "/assets/img/logos/sensenova.png"
+  file_dark: "/assets/img/logos/sensenova_white.png"
+  alt: "SenseNova"
+  url: "https://www.sensetime.com/en/"
+
+- file: "/assets/img/logos/nvidia.png"
+  file_dark: "/assets/img/logos/nvidia_white.png"
+  alt: "NVIDIA"
+  url: "https://www.nvidia.com/"
+
+- file: "/assets/img/logos/amd.png"
+  file_dark: "/assets/img/logos/amd_white.png"
+  alt: "AMD"
+  url: "https://www.amd.com/"

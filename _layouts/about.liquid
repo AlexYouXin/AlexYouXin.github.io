@@ -65,12 +65,68 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Research topics -->
+    {% if page.research_topics and site.data.research_topics %}
+      <h2>research topics</h2>
+      <ul class="research-topics">
+        {% for topic in site.data.research_topics %}
+          <li><span class="font-weight-bold">{{ topic.label }}</span>: {{ topic.desc }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Activities -->
+    {% if page.activities and site.data.activities %}
+      <h2>activities</h2>
+      <div class="activities">
+        {% assign activity_groups = 'invited:invited talks,teaching:teaching assistant,reviewer:regular reviewer' | split: ',' %}
+        {% for group in activity_groups %}
+          {% assign group_key = group | split: ':' | first %}
+          {% assign group_title = group | split: ':' | last %}
+          {% assign items = site.data.activities[group_key] %}
+          {% if items %}
+            <h3 class="activity-heading">{{ group_title }}</h3>
+            <table class="table table-sm table-borderless">
+              {% for item in items %}
+                <tr>
+                  {% if item.date %}
+                    <th scope="row" style="width: 20%">{{ item.date }}</th>
+                  {% endif %}
+                  <td {% unless item.date %}colspan="2"{% endunless %}>
+                    {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}
+                    {% for link in item.links %}
+                      <a href="{{ link.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+                    {% endfor %}
+                  </td>
+                </tr>
+              {% endfor %}
+            </table>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- Funders and collaborators -->
+    {% if page.funders and site.data.funders %}
+      <h2>funders and collaborators</h2>
+      <div class="logo-wall">
+        {% for logo in site.data.funders %}
+          <a class="logo-item" href="{{ logo.url }}" target="_blank" rel="noopener noreferrer" title="{{ logo.alt }}">
+            <img class="logo-light" src="{{ logo.file | relative_url }}" alt="{{ logo.alt }}" loading="lazy">
+            {% if logo.file_dark %}
+              <img class="logo-dark" src="{{ logo.file_dark | relative_url }}" alt="{{ logo.alt }}" loading="lazy">
+            {% endif %}
+          </a>
+        {% endfor %}
+      </div>
     {% endif %}
 
 

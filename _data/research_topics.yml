@@ -1,0 +1,20 @@
+# Shown in the "research topics" section of the about page (synced from xin-you.pages.dev)
+- id: multimodal
+  label: "Multimodal & Agentic AI"
+  desc: "Multi-modal representation learning, foundation models and agentic AI that reason across modalities and clinical context."
+
+- id: generative
+  label: "Generative Medical AI"
+  desc: "Diffusion-based and Flow matching-based generative models for 3D and 4D medical data."
+
+- id: shape
+  label: "Shape & Topology Representation Learning"
+  desc: "Learning with shape priors and topological constraints for anatomical shapes."
+
+- id: clinical
+  label: "Clinically Grounded AI"
+  desc: "Algorithms tied to clinically meaningful structures and workflows, developed through expert challenge collaborations on cardiac, vascular and airway anatomy."
+
+- id: world
+  label: "World Modeling for Virtual Patients"
+  desc: "Dynamic digital twins and generative world models that simulate patient-specific anatomy and physiology for preoperative planning and intraoperative navigation."

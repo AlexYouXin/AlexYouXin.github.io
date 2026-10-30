@@ -259,3 +259,68 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+// About page: research topics, activities, funders and collaborators
+
+.research-topics li {
+  margin-bottom: 0.4rem;
+}
+
+.activities {
+  .activity-heading {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+
+  .btn {
+    padding: 0 0.4rem;
+    margin-left: 0.25rem;
+    font-size: 0.75rem;
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-theme-color);
+  }
+}
+
+.logo-wall {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 30px;
+  padding: 1rem 0 2rem;
+
+  .logo-item {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    transition:
+      transform 0.2s ease,
+      opacity 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      opacity: 0.78;
+    }
+
+    img {
+      max-height: 42px;
+      max-width: 220px;
+      width: auto;
+      height: auto;
+    }
+
+    // square crest needs more room than the wordmarks
+    img[src*="sjtu"] {
+      max-height: 68px;
+      max-width: 68px;
+    }
+  }
+}
+
+// dark logos on the light theme, white logos on the dark theme
+html[data-theme="dark"] .logo-wall .logo-light {
+  display: none;
+}
+
+html:not([data-theme="dark"]) .logo-wall .logo-dark {
+  display: none;
+}
