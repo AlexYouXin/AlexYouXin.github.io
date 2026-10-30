@@ -324,3 +324,17 @@ html[data-theme="dark"] .logo-wall .logo-light {
 html:not([data-theme="dark"]) .logo-wall .logo-dark {
   display: none;
 }
+
+// keep about-page section headings clear of the fixed navbar when jumped to
+.section-anchor {
+  scroll-margin-top: 4.5rem;
+}
+
+// selected publications: scroll box roughly five papers tall
+.publications-scroll {
+  max-height: 64rem;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+}

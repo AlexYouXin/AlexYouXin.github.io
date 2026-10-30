@@ -43,7 +43,10 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+            {% if page.permalink == '/' %}
+              {% assign about_title = page.title %}
+              {% assign about_sections = page.nav_sections %}
+            {% endif %}
           {% endfor %}
 
           <!-- About -->
@@ -55,6 +58,13 @@
               {% endif %}
             </a>
           </li>
+
+          <!-- Sections of the about page (nav_sections in _pages/about.md) -->
+          {% for section in about_sections %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ '/' | relative_url }}#{{ section.id }}">{{ section.title }}</a>
+            </li>
+          {% endfor %}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}

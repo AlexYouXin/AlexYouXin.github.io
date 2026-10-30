@@ -51,8 +51,8 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      <h2 id="news" class="section-anchor">
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -67,7 +67,7 @@ layout: default
 
     <!-- Research topics -->
     {% if page.research_topics and site.data.research_topics %}
-      <h2>research topics</h2>
+      <h2 id="research" class="section-anchor">Research Topics</h2>
       <ul class="research-topics">
         {% for topic in site.data.research_topics %}
           <li><span class="font-weight-bold">{{ topic.label }}</span>: {{ topic.desc }}</li>
@@ -77,23 +77,23 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      <h2 id="publications" class="section-anchor">
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      <div class="publications-scroll">{% include selected_papers.liquid %}</div>
     {% endif %}
 
     <!-- Activities -->
     {% if page.activities and site.data.activities %}
-      <h2>activities</h2>
+      <h2 id="activities" class="section-anchor">Activities</h2>
       <div class="activities">
-        {% assign activity_groups = 'invited:invited talks,teaching:teaching assistant,reviewer:regular reviewer' | split: ',' %}
+        {% assign activity_groups = 'invited:Invited Talks,teaching:Teaching Assistant,reviewer:Regular Reviewer' | split: ',' %}
         {% for group in activity_groups %}
           {% assign group_key = group | split: ':' | first %}
           {% assign group_title = group | split: ':' | last %}
           {% assign items = site.data.activities[group_key] %}
           {% if items %}
-            <h3 class="activity-heading">{{ group_title }}</h3>
+            <h3 class="activity-heading">{{ group_title }}:</h3>
             <table class="table table-sm table-borderless">
               {% for item in items %}
                 <tr>
@@ -116,7 +116,7 @@ layout: default
 
     <!-- Funders and collaborators -->
     {% if page.funders and site.data.funders %}
-      <h2>funders and collaborators</h2>
+      <h2 id="funders" class="section-anchor">Funders and Collaborators</h2>
       <div class="logo-wall">
         {% for logo in site.data.funders %}
           <a class="logo-item" href="{{ logo.url }}" target="_blank" rel="noopener noreferrer" title="{{ logo.alt }}">

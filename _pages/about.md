@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 seo_title: Xin You - Personal Website
 permalink: /
 subtitle: Ph.D. @ Institute of Medical Robotics, Shanghai Jiao Tong University
@@ -10,17 +10,24 @@ profile:
   image: bio.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><a href="https://imr.sjtu.edu.cn/">Institute of Medical Robotics, Shanghai Jiao Tong University</a></p>
-    <p><a href="https://www.cs.cit.tum.de/camp/start/">Chair of CAMP, Technical University of Munich</a></p>
-    <p><a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a></p>
-    <p><a href="https://www.sensetime.com/en/">SenseNova Research, SenseTime</a></p>
-    <p> Let's goooooooooooo! </p>
+    <p><i class="fa-solid fa-envelope"></i> sjtu_youxin [at] sjtu [dot] edu [dot] cn</p>
 
 research_topics: true # includes the topics in _data/research_topics.yml
 selected_papers: true # includes a list of papers marked as "selected={true}"
 activities: true # includes talks, teaching and reviewing from _data/activities.yml
 funders: true # includes the logo wall from _data/funders.yml
 social: true # includes social icons at the bottom of the page
+
+# extra navbar entries after "About", linking to sections of this page
+nav_sections:
+  - id: news
+    title: News
+  - id: publications
+    title: Publications
+  - id: activities
+    title: Activities
+  - id: funders
+    title: Funders
 
 announcements:
   enabled: true # includes a list of news items
@@ -40,3 +47,10 @@ I was also a visiting scholar at the Chair for Computer Aided Medical Procedures
 My research advances **AI for medicine and healthcare** through generative and agentic AI, multimodal learning, and world models. Ultimately, I aim to build virtual patients — faithful, dynamic digital twins that can support preoperative planning and intraoperative navigation in real-world clinical settings.
 
 **Note: I'm always open to academic collaborations and discussions. Please feel free to reach out by sjtu_youxin [at] sjtu [dot] edu [dot] cn.**
+
+#### Affiliations
+
+- [Institute of Medical Robotics, Shanghai Jiao Tong University](https://imr.sjtu.edu.cn/)
+- [Chair of CAMP, Technical University of Munich](https://www.cs.cit.tum.de/camp/start/)
+- [Shanghai AI Laboratory](https://www.shlab.org.cn/)
+- [SenseNova Research, SenseTime](https://www.sensetime.com/en/)
