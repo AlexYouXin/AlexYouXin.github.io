@@ -11,6 +11,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><i class="fa-solid fa-envelope"></i> sjtu_youxin [at] sjtu [dot] edu [dot] cn</p>
+    <p><i class="fa-solid fa-globe"></i> <a href="https://xin-you.pages.dev/">xin-you.pages.dev</a></p>
 
 research_topics: true # includes the topics in _data/research_topics.yml
 selected_papers: true # includes a list of papers marked as "selected={true}"
