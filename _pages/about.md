@@ -12,6 +12,7 @@ profile:
   more_info: >
     <p><i class="fa-solid fa-envelope"></i> sjtu_youxin [at] sjtu [dot] edu [dot] cn</p>
     <p><i class="fa-solid fa-globe"></i> <a href="https://xin-you.pages.dev/">xin-you.pages.dev</a></p>
+    <p><i class="ai ai-arxiv"></i> <a href="https://www.alphaxiv.org/@xin-you-2">Xin You on alphaXiv</a></p>
 
 research_topics: true # includes the topics in _data/research_topics.yml
 selected_papers: true # includes a list of papers marked as "selected={true}"
